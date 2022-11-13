@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e48aaab-613f-4452-b3d7-152c9c113a32">
-  <name>InterviewTasks</name>
+  <name>InterviewTasks1C</name>
   <synonym>
     <key>en</key>
-    <value>Interview tasks</value>
+    <value>Interview tasks 1C</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="97127b3c-6f9b-4053-94fb-13c1fbba0dcd"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="42d7a68a-0f8f-4f09-b723-0543498b8b48"/>
@@ -38,5 +38,8 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <catalogs>Catalog.Clients</catalogs>
+  <catalogs>Catalog.Delete</catalogs>
   <catalogs>Catalog.Tasks</catalogs>
+  <documents>Document.Document1</documents>
 </mdclass:Configuration>

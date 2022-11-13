@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="918c326f-8c7d-4996-b777-acfc62b89926">
+  <producedTypes>
+    <objectType typeId="642aaba2-9f9e-46f8-8ea4-a4c6b36067de" valueTypeId="049c312e-abbb-4843-9f0f-7400639fe99e"/>
+    <refType typeId="975bef58-34be-44f2-8549-986cb67391be" valueTypeId="ef9c48e2-b092-4e07-809f-6649a204a725"/>
+    <selectionType typeId="6df8162c-944e-4fd7-9ae5-1725bdddada1" valueTypeId="db72b686-b13e-4bdf-b7a3-c1ea5ab8c713"/>
+    <listType typeId="8d790283-dcad-4356-b9cf-8ccbdf013bf2" valueTypeId="ff09592d-72a6-493d-9c89-3ee8524a3dda"/>
+    <managerType typeId="82507e8f-9155-4644-a398-d468addad56b" valueTypeId="e412aee4-f13f-4fe5-b8d4-e4a49e653cf6"/>
+  </producedTypes>
+  <name>Delete</name>
+  <synonym>
+    <key>en</key>
+    <value>Delete</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Delete.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Delete.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
